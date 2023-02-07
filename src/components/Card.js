@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillStar } from "react-icons/ai"
 
 const Card = (props) => {
   let badgeText;
@@ -15,6 +16,7 @@ const Card = (props) => {
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={props.card.coverImg} alt="" />
       <div className="card--stats">
+        <span className="star"><AiFillStar /></span>
         <span>{props.card.stats.rating}</span>
         <span className="grey">({props.card.stats.reviewCount})</span>
         <span className="grey">.{props.card.location}</span>

@@ -78,6 +78,11 @@ section {
     color: #222222;
 }
 
+.star {
+    color: #FF5A5F;
+    margin-right: 2px;
+}
+
 .grey {
     color: #918E9B;
 }

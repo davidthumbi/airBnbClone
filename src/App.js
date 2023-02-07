@@ -11,7 +11,7 @@ function App() {
         key={card.id}
         // use {...card} to spread and call the title as props.title
         card={card}
-      />
+      /> 
     );
   });
   return (
