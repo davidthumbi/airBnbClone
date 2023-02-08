@@ -21,8 +21,9 @@ const data = [
   },
   {
     id: 2,
-    title: "Title 2",
-    description: "Description 2",
+    title: "Baseball tournament",
+    description:
+      "Join the online baseball tournament to catch the finals held in Canada.",
     price: 105,
     coverImg: img2,
     stats: {
@@ -34,8 +35,9 @@ const data = [
   },
   {
     id: 3,
-    title: "Title 3",
-    description: "Description 3",
+    title: "Desert Cakes",
+    description:
+      "Visit the wisbon hotel to experience the best meals you can have in the planet.",
     price: 145,
     coverImg: img3,
     stats: {
@@ -47,8 +49,9 @@ const data = [
   },
   {
     id: 4,
-    title: "Title 4",
-    description: "Description 4",
+    title: "Fireworks",
+    description:
+      "Join 7 billion people in the world to celebrate noving from the year 2022 to year 2023.",
     price: 195,
     coverImg: img4,
     stats: {
@@ -60,15 +63,16 @@ const data = [
   },
   {
     id: 5,
-    title: "Title 4",
-    description: "Description 4",
+    title: "Caribbean",
+    description:
+      "Discovery includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
     price: 195,
     coverImg: img5,
     stats: {
       rating: 3.5,
       reviewCount: 80,
     },
-    location: "online",
+    location: "JAMICA",
     openSpots: 10,
   },
 ];
