@@ -24,7 +24,7 @@ function App() {
       <Navbar />
       <Hero />
       <section className="card-list">{cards}</section>
-      <section className="card-list">{jokess}</section>
+      {/* <section className="card-list">{jokess}</section> */}
     </div>
   );
 }
