@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Joke = (props) => {
+const Joke = ({setup, punchline,  upVotes}) => {
   return (
     <div>
-        {props.setup && <h3>Setup: {props.setup}</h3>}
-        <p>Punchline: {props.punchline}</p>
+        {setup && <h3>Setup: {setup}</h3>}
+        <p>Punchline: {punchline}</p>
+        <p>UpVotes: {upVotes}</p>
         <hr />
     </div>
   )
